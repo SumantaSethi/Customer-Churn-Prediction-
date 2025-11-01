@@ -1,1 +1,1 @@
-analyzes bank customer churn and provides real-time predictions using several machine learning models
+Analyzes bank customer churn and provides real-time predictions using several machine learning models
