@@ -1,0 +1,184 @@
+Fitting 5 folds for each of 30 candidates, totalling 150 fits
+[CV 1/5] END logisticregression__C=0.01, logisticregression__solver=liblinear;, score=0.663 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.01, logisticregression__solver=liblinear;, score=0.685 total time=   0.2s
+[CV 3/5] END logisticregression__C=0.01, logisticregression__solver=liblinear;, score=0.681 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.01, logisticregression__solver=liblinear;, score=0.688 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.01, logisticregression__solver=liblinear;, score=0.687 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.01, logisticregression__solver=newton-cg;, score=0.663 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.01, logisticregression__solver=newton-cg;, score=0.686 total time=   0.2s
+[CV 3/5] END logisticregression__C=0.01, logisticregression__solver=newton-cg;, score=0.680 total time=   0.2s
+[CV 4/5] END logisticregression__C=0.01, logisticregression__solver=newton-cg;, score=0.688 total time=   0.2s
+[CV 5/5] END logisticregression__C=0.01, logisticregression__solver=newton-cg;, score=0.689 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.01, logisticregression__solver=lbfgs;, score=0.663 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.01, logisticregression__solver=lbfgs;, score=0.686 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.01, logisticregression__solver=lbfgs;, score=0.680 total time=   0.2s
+[CV 4/5] END logisticregression__C=0.01, logisticregression__solver=lbfgs;, score=0.688 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.01, logisticregression__solver=lbfgs;, score=0.689 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.01, logisticregression__solver=sag;, score=0.663 total time=   0.2s
+[CV 2/5] END logisticregression__C=0.01, logisticregression__solver=sag;, score=0.686 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.01, logisticregression__solver=sag;, score=0.680 total time=   0.2s
+[CV 4/5] END logisticregression__C=0.01, logisticregression__solver=sag;, score=0.688 total time=   0.2s
+[CV 5/5] END logisticregression__C=0.01, logisticregression__solver=sag;, score=0.689 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.01, logisticregression__solver=saga;, score=0.663 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.01, logisticregression__solver=saga;, score=0.686 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.01, logisticregression__solver=saga;, score=0.680 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.01, logisticregression__solver=saga;, score=0.688 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.01, logisticregression__solver=saga;, score=0.689 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.05, logisticregression__solver=liblinear;, score=0.689 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.05, logisticregression__solver=liblinear;, score=0.704 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.05, logisticregression__solver=liblinear;, score=0.706 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.05, logisticregression__solver=liblinear;, score=0.697 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.05, logisticregression__solver=liblinear;, score=0.710 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.05, logisticregression__solver=newton-cg;, score=0.690 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.05, logisticregression__solver=newton-cg;, score=0.705 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.05, logisticregression__solver=newton-cg;, score=0.709 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.05, logisticregression__solver=newton-cg;, score=0.697 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.05, logisticregression__solver=newton-cg;, score=0.714 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.05, logisticregression__solver=lbfgs;, score=0.689 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.05, logisticregression__solver=lbfgs;, score=0.704 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.05, logisticregression__solver=lbfgs;, score=0.709 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.05, logisticregression__solver=lbfgs;, score=0.697 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.05, logisticregression__solver=lbfgs;, score=0.714 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.05, logisticregression__solver=sag;, score=0.690 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.05, logisticregression__solver=sag;, score=0.704 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.05, logisticregression__solver=sag;, score=0.709 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.05, logisticregression__solver=sag;, score=0.697 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.05, logisticregression__solver=sag;, score=0.714 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.05, logisticregression__solver=saga;, score=0.689 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.05, logisticregression__solver=saga;, score=0.704 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.05, logisticregression__solver=saga;, score=0.709 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.05, logisticregression__solver=saga;, score=0.697 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.05, logisticregression__solver=saga;, score=0.714 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.1, logisticregression__solver=liblinear;, score=0.702 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.1, logisticregression__solver=liblinear;, score=0.704 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.1, logisticregression__solver=liblinear;, score=0.716 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.1, logisticregression__solver=liblinear;, score=0.706 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.1, logisticregression__solver=liblinear;, score=0.722 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.1, logisticregression__solver=newton-cg;, score=0.706 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.1, logisticregression__solver=newton-cg;, score=0.706 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.1, logisticregression__solver=newton-cg;, score=0.715 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.1, logisticregression__solver=newton-cg;, score=0.706 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.1, logisticregression__solver=newton-cg;, score=0.722 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.1, logisticregression__solver=lbfgs;, score=0.706 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.1, logisticregression__solver=lbfgs;, score=0.706 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.1, logisticregression__solver=lbfgs;, score=0.715 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.1, logisticregression__solver=lbfgs;, score=0.706 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.1, logisticregression__solver=lbfgs;, score=0.722 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.1, logisticregression__solver=sag;, score=0.706 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.1, logisticregression__solver=sag;, score=0.706 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.1, logisticregression__solver=sag;, score=0.716 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.1, logisticregression__solver=sag;, score=0.707 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.1, logisticregression__solver=sag;, score=0.722 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.1, logisticregression__solver=saga;, score=0.706 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.1, logisticregression__solver=saga;, score=0.706 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.1, logisticregression__solver=saga;, score=0.716 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.1, logisticregression__solver=saga;, score=0.707 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.1, logisticregression__solver=saga;, score=0.721 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.5, logisticregression__solver=liblinear;, score=0.714 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.5, logisticregression__solver=liblinear;, score=0.712 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.5, logisticregression__solver=liblinear;, score=0.719 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.5, logisticregression__solver=liblinear;, score=0.714 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.5, logisticregression__solver=liblinear;, score=0.727 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.5, logisticregression__solver=newton-cg;, score=0.714 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.5, logisticregression__solver=newton-cg;, score=0.711 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.5, logisticregression__solver=newton-cg;, score=0.720 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.5, logisticregression__solver=newton-cg;, score=0.716 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.5, logisticregression__solver=newton-cg;, score=0.729 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.5, logisticregression__solver=lbfgs;, score=0.714 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.5, logisticregression__solver=lbfgs;, score=0.711 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.5, logisticregression__solver=lbfgs;, score=0.719 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.5, logisticregression__solver=lbfgs;, score=0.716 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.5, logisticregression__solver=lbfgs;, score=0.728 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.5, logisticregression__solver=sag;, score=0.714 total time=   0.2s
+[CV 2/5] END logisticregression__C=0.5, logisticregression__solver=sag;, score=0.711 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.5, logisticregression__solver=sag;, score=0.720 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.5, logisticregression__solver=sag;, score=0.716 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.5, logisticregression__solver=sag;, score=0.729 total time=   0.1s
+[CV 1/5] END logisticregression__C=0.5, logisticregression__solver=saga;, score=0.714 total time=   0.1s
+[CV 2/5] END logisticregression__C=0.5, logisticregression__solver=saga;, score=0.711 total time=   0.1s
+[CV 3/5] END logisticregression__C=0.5, logisticregression__solver=saga;, score=0.720 total time=   0.1s
+[CV 4/5] END logisticregression__C=0.5, logisticregression__solver=saga;, score=0.716 total time=   0.1s
+[CV 5/5] END logisticregression__C=0.5, logisticregression__solver=saga;, score=0.729 total time=   0.1s
+[CV 1/5] END logisticregression__C=1, logisticregression__solver=liblinear;, score=0.718 total time=   0.1s
+[CV 2/5] END logisticregression__C=1, logisticregression__solver=liblinear;, score=0.712 total time=   0.1s
+[CV 3/5] END logisticregression__C=1, logisticregression__solver=liblinear;, score=0.720 total time=   0.1s
+[CV 4/5] END logisticregression__C=1, logisticregression__solver=liblinear;, score=0.716 total time=   0.1s
+[CV 5/5] END logisticregression__C=1, logisticregression__solver=liblinear;, score=0.729 total time=   0.1s
+[CV 1/5] END logisticregression__C=1, logisticregression__solver=newton-cg;, score=0.718 total time=   0.1s
+[CV 2/5] END logisticregression__C=1, logisticregression__solver=newton-cg;, score=0.712 total time=   0.1s
+[CV 3/5] END logisticregression__C=1, logisticregression__solver=newton-cg;, score=0.719 total time=   0.1s
+[CV 4/5] END logisticregression__C=1, logisticregression__solver=newton-cg;, score=0.716 total time=   0.1s
+[CV 5/5] END logisticregression__C=1, logisticregression__solver=newton-cg;, score=0.729 total time=   0.1s
+[CV 1/5] END logisticregression__C=1, logisticregression__solver=lbfgs;, score=0.718 total time=   0.2s
+[CV 2/5] END logisticregression__C=1, logisticregression__solver=lbfgs;, score=0.713 total time=   0.2s
+[CV 3/5] END logisticregression__C=1, logisticregression__solver=lbfgs;, score=0.719 total time=   0.2s
+[CV 4/5] END logisticregression__C=1, logisticregression__solver=lbfgs;, score=0.716 total time=   0.2s
+[CV 5/5] END logisticregression__C=1, logisticregression__solver=lbfgs;, score=0.729 total time=   0.2s
+[CV 1/5] END logisticregression__C=1, logisticregression__solver=sag;, score=0.718 total time=   0.2s
+[CV 2/5] END logisticregression__C=1, logisticregression__solver=sag;, score=0.712 total time=   0.2s
+[CV 3/5] END logisticregression__C=1, logisticregression__solver=sag;, score=0.719 total time=   0.2s
+[CV 4/5] END logisticregression__C=1, logisticregression__solver=sag;, score=0.716 total time=   0.2s
+[CV 5/5] END logisticregression__C=1, logisticregression__solver=sag;, score=0.729 total time=   0.2s
+[CV 1/5] END logisticregression__C=1, logisticregression__solver=saga;, score=0.718 total time=   0.2s
+[CV 2/5] END logisticregression__C=1, logisticregression__solver=saga;, score=0.712 total time=   0.2s
+[CV 3/5] END logisticregression__C=1, logisticregression__solver=saga;, score=0.719 total time=   0.2s
+[CV 4/5] END logisticregression__C=1, logisticregression__solver=saga;, score=0.716 total time=   0.2s
+[CV 5/5] END logisticregression__C=1, logisticregression__solver=saga;, score=0.729 total time=   0.2s
+[CV 1/5] END logisticregression__C=5, logisticregression__solver=liblinear;, score=0.718 total time=   0.1s
+[CV 2/5] END logisticregression__C=5, logisticregression__solver=liblinear;, score=0.713 total time=   0.1s
+[CV 3/5] END logisticregression__C=5, logisticregression__solver=liblinear;, score=0.719 total time=   0.1s
+[CV 4/5] END logisticregression__C=5, logisticregression__solver=liblinear;, score=0.718 total time=   0.1s
+[CV 5/5] END logisticregression__C=5, logisticregression__solver=liblinear;, score=0.731 total time=   0.1s
+[CV 1/5] END logisticregression__C=5, logisticregression__solver=newton-cg;, score=0.717 total time=   0.1s
+[CV 2/5] END logisticregression__C=5, logisticregression__solver=newton-cg;, score=0.713 total time=   0.1s
+[CV 3/5] END logisticregression__C=5, logisticregression__solver=newton-cg;, score=0.719 total time=   0.1s
+[CV 4/5] END logisticregression__C=5, logisticregression__solver=newton-cg;, score=0.718 total time=   0.1s
+[CV 5/5] END logisticregression__C=5, logisticregression__solver=newton-cg;, score=0.731 total time=   0.1s
+[CV 1/5] END logisticregression__C=5, logisticregression__solver=lbfgs;, score=0.718 total time=   0.1s
+[CV 2/5] END logisticregression__C=5, logisticregression__solver=lbfgs;, score=0.713 total time=   0.1s
+[CV 3/5] END logisticregression__C=5, logisticregression__solver=lbfgs;, score=0.719 total time=   0.1s
+[CV 4/5] END logisticregression__C=5, logisticregression__solver=lbfgs;, score=0.718 total time=   0.1s
+[CV 5/5] END logisticregression__C=5, logisticregression__solver=lbfgs;, score=0.731 total time=   0.1s
+[CV 1/5] END logisticregression__C=5, logisticregression__solver=sag;, score=0.718 total time=   0.3s
+[CV 2/5] END logisticregression__C=5, logisticregression__solver=sag;, score=0.713 total time=   0.2s
+[CV 3/5] END logisticregression__C=5, logisticregression__solver=sag;, score=0.719 total time=   0.2s
+[CV 4/5] END logisticregression__C=5, logisticregression__solver=sag;, score=0.718 total time=   0.2s
+[CV 5/5] END logisticregression__C=5, logisticregression__solver=sag;, score=0.731 total time=   0.2s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 1/5] END logisticregression__C=5, logisticregression__solver=saga;, score=0.718 total time=   0.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 2/5] END logisticregression__C=5, logisticregression__solver=saga;, score=0.713 total time=   0.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 3/5] END logisticregression__C=5, logisticregression__solver=saga;, score=0.719 total time=   0.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+[CV 4/5] END logisticregression__C=5, logisticregression__solver=saga;, score=0.718 total time=   0.4s
+[CV 5/5] END logisticregression__C=5, logisticregression__solver=saga;, score=0.731 total time=   0.4s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+
+GridSearchCV
+?i
+
+best_estimator_: Pipeline
+
+columntransformer: ColumnTransformer
+?
+
+minmaxscaler
+
+MinMaxScaler
+?
+
+onehotencoder
+
+OneHotEncoder
+?
+
+SMOTE
+
+LogisticRegression
+?
