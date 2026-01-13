@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Customer Exit Prediction System using Machine Learning">
+    <title>Customer Exit Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Customer Exit Prediction</h1>
+            <p class="subtitle">Enter User Information in the Form Below</p>
+        </header>
+
+        <form class="prediction-form" id="customerForm">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="creditScore">Credit Score:</label>
+                    <input 
+                        type="number" 
+                        id="creditScore" 
+                        name="creditScore" 
+                        placeholder="Enter credit score"
+                        min="300"
+                        max="850"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="">-- select --</option>
+                        <option value="france">France</option>
+                        <option value="germany">Germany</option>
+                        <option value="spain">Spain</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="usa">United States</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">-- select --</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input 
+                        type="number" 
+                        id="age" 
+                        name="age" 
+                        placeholder="Enter age"
+                        min="18"
+                        max="100"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tenure">Years as Bank Customer:</label>
+                    <input 
+                        type="number" 
+                        id="tenure" 
+                        name="tenure" 
+                        placeholder="Enter years"
+                        min="0"
+                        max="50"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="balance">Account Balance:</label>
+                    <input 
+                        type="number" 
+                        id="balance" 
+                        name="balance" 
+                        step="0.01" 
+                        placeholder="Enter balance"
+                        min="0"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="numProducts">Number of Products Used:</label>
+                    <select id="numProducts" name="numProducts" required>
+                        <option value="">-- select --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="hasCreditCard">Has an Active Credit Card:</label>
+                    <select id="hasCreditCard" name="hasCreditCard" required>
+                        <option value="">-- select --</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="isActiveMember">Is an Active Bank Member:</label>
+                    <select id="isActiveMember" name="isActiveMember" required>
+                        <option value="">-- select --</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="estimatedSalary">Estimated Salary:</label>
+                    <input 
+                        type="number" 
+                        id="estimatedSalary" 
+                        name="estimatedSalary" 
+                        step="0.01" 
+                        placeholder="Enter estimated salary"
+                        min="0"
+                        required>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="submit-btn">Predict Customer Exit</button>
+                <button type="button" class="reset-btn" onclick="resetForm()">Reset Form</button>
+            </div>
+        </form>
+
+        <section class="results-section" id="resultsSection">
+            <h2>Model Prediction that Customer is Likely to Exit</h2>
+            <div class="table-container">
+                <table class="prediction-table">
+                    <thead>
+                        <tr>
+                            <th>Model Name</th>
+                            <th>Prediction</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Decision Tree</td>
+                            <td class="prediction-value" id="pred-dt">--</td>
+                        </tr>
+                        <tr>
+                            <td>K-nearest Neighbors</td>
+                            <td class="prediction-value" id="pred-knn">--</td>
+                        </tr>
+                        <tr>
+                            <td>Logistic Regression</td>
+                            <td class="prediction-value" id="pred-lr">--</td>
+                        </tr>
+                        <tr>
+                            <td>Random Forest</td>
+                            <td class="prediction-value" id="pred-rf">--</td>
+                        </tr>
+                        <tr>
+                            <td>XGBoost</td>
+                            <td class="prediction-value" id="pred-xgb">--</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="data-record-section">
+            <h2>Customer Data Input Record</h2>
+            <div class="data-display" id="dataDisplay">
+                <p class="no-data">No data entered yet</p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Customer Exit Prediction System. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  </html>
