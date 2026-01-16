@@ -1,0 +1,28 @@
+Fitting 5 folds for each of 36 candidates, totalling 180 fits
+/usr/local/lib/python3.12/dist-packages/xgboost/training.py:199: UserWarning: [23:36:30] WARNING: /workspace/src/learner.cc:790: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+GridSearchCV
+?i
+
+best_estimator_: Pipeline
+
+columntransformer: ColumnTransformer
+?
+
+minmaxscaler
+
+MinMaxScaler
+?
+
+onehotencoder
+
+OneHotEncoder
+?
+
+SMOTE
+
+XGBClassifier
+?
